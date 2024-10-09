@@ -1,0 +1,27 @@
+
+body{
+    background: url(imagen\ 1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navegacion{
+    width: 100px;
+    margin: 30px;
+    background-color: aliceblue;
+
+}
+.navegacion ul{
+    list-style: none;
+
+}
+.menu > li{
+    display: online-block;
+
+}
+.menu li a:hover{
+    color:yellow;
+    transition: all .3s;
+}
+
